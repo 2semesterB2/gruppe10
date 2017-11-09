@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* HTML og CSS til slideshow fra: https://designshack.net/articles/css/infinitephotobanner/ */
+
+#container {
+	width: 100%;
+	overflow: hidden;
+	margin:0% auto;
+	background: white;
+}
+
+/*Fotobanner*/
+ 
+.photobanner {
+	height: 10%;
+	width: 300%;
+	
+}
+
+/*keyframe animationer*/
+.first {
+	-webkit-animation-name: bannermove;
+	   -moz-animation-name: bannermove; 
+	    -ms-animation-name: bannermove; 
+	     -o-animation-name: bannermove; 
+	        -Webkit-animation-name: bannermove; 
+			animation-name: bannermove; 
+}
+
+.first {
+	-webkit-animation-duration: 30s; 
+	   -moz-animation-duration: 30s;
+	    -ms-animation-duration: 30s;
+	     -o-animation-duration: 30s;
+	      -Webkit-animation-duration: 30s;
+			animation-duration: 30s;
+}
+
+.first {
+	-webkit-animation-iteration-count: linear infinite;
+	   -moz-animation-iteration-count: linear infinite;
+	    -ms-animation-iteration-count: linear infinite;
+	     -o-animation-iteration-count: linear infinite;
+	        -Webkit-animation-iteration-count: linear infinite;
+			animation-duration: 50s;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -1360px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1360px;
+ 
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1360px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1360px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1360px;
+ }
+
+}
+
+@Webkit-keyframes "bannermove" {
+	0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1360px;
+ }
+
+}

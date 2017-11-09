@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 992px) {
+	.menumargin {
+		margin-left: 225px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.carousel {
+		display: none;
+	}
+	
+	
+	.hidebig {
+		display: none;
+	}
+	
+	
+}
+
+@media screen and (max-width: 767px) {
+	.hidesmall {
+		display: none;
+	}
+}
+	
+@media screen and (max-width: 991px) {
+		.hidesmallextra {
+			display: none;
+		}
+	}	
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+	background: url(../images/baggrund.jpg);
+	font-size: 16px;
+}
+
+/*coverbilede*/
+.coverbillede {
+    /* The image used */
+    background-image: url("../images/Bauhaus1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*linje (sort og rød)*/
+.rectangle1 {
+    width:100%;
+    height:20%;
+    background:black;
+}
+
+.delttekst {
+	float: left;
+	color: white;
+	padding-left: 5%;
+}
+
+.delttekst2 {
+	float: left;
+	color: white;
+	padding-left: 5%;
+}
+
+.rectangle2 {
+	width:100%;
+    height:2%;
+    background:#B00A24;
+}
+
+.velkommensbrdtekst {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 4%;
+}
+
+#iconshare {
+	margin: 2%;
+	width: 5%;
+	float: left;
+}
+.iconspos {
+	margin: 2%;
+	width: 5%;
+	float: left;
+}
+
+.logo {
+	margin: 2%;
+	float: left;
+	width: 50%;
+
+
+}
+/*tekster*/
+
+p, h1, h2, h3, a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	line-height: 1.5;
+}
+
+.velkommenoverskrift {
+	color: white;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 200%;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+
+}
+.velkommensbrdtekst {
+
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+
+.billedetekst {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	width:100%;
+    position: absolute;
+	bottom: 40%;
+}
+
+
+/*guides*/
+
+.thumbnail:hover { /*hover*/
+    opacity: 0.5;
+}
+
+#guides {
+	padding-bottom: 5%;
+}
+
+/* Footeren */ 
+
+footer {
+	
+	color: white; 
+	overflow: auto; 
+	padding-top: 1%;
+	padding-bottom: 1%;  
+
+}
+
+#footerlogo { 
+	padding: 1%;  
+	padding-left: 3%; 
+	display: block; 
+	float: left; 
+}
+
+.footertekst {
+	padding-left: 30%;   
+	float: left;  
+	position: absolute; 
+	line-height: 7;
+}
+
+.footertekstoverskrift {
+	padding-left: 30%;   
+	float: left;  
+	position: absolute; 
+}
+
+.socialemedier {
+	position: relative; 
+	padding-left: 75%; 
+	display: block; 	
+}
+
+.ikoner {
+	padding-left: 4%; 
+}
+
+
+/*fremgangsmåde*/
+.fremgangs {
+	margin: 2%;
+	padding-bottom: 10%;
+}
+
+/*video*/
+.video {
+	width: 100%;
+	height: 400px;
+}
+
+
+/*banner*/
+
+.banner { /*Responsiv billede*/
+	width: 100%;
+    height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#projekter {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+#collapse1 {
+	background: #FFFFFF;
+}
+
+#collapse2 {
+	background: #FFFFFF;
+}
+
+#collapse3 {
+	background: #FFFFFF;
+}
+
+#collapse4 {
+	background: #FFFFFF;
+}
+
+
+.collapse {
+	padding-bottom: 3%;
+}
+
+/*uploade*/
+
+.clear { 
+	clear:both; 
+}
+
+.photo-link	{ 
+	padding:5px; 
+	margin:5px; 
+	border:1px solid #ccc; 
+	display:block; 
+	float:left; 
+}
+
+.photo-link:hover	{ border-color:#999; }
+
+
+.uplodetext {
+	color: white;
+	font-weight: bold;
+}
+
+#uploade {
+	background:#FFFFFF;
+}
